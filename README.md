@@ -8,4 +8,4 @@
 ![Jenkins output](https://github.com/Drimkore/MLopsProj/blob/main/a9ab1a01-a62b-4518-b885-dd885393d9bd.png)
 
 # Работа модели
-![Работа модели](https://github.com/Drimkore/MLopsProj/model.mp4)
+![Работа модели](https://github.com/Drimkore/MLopsProj/blob/main/gif.gif)

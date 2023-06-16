@@ -2,8 +2,8 @@ FROM python:3.11
 WORKDIR /app
 
 EXPOSE 5000
-COPY req.txt ./req.txt 
-RUN pip install -r req.txt
+COPY requirements.txt ./requirements.txt 
+RUN pip install -r requirements.txt
 COPY . .
 
 

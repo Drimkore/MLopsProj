@@ -1,5 +1,13 @@
+import transformers
 import pytest
-from main import predict
+
+
+classifier = transformers.pipeline("text2text-generation", model="czearing/story-to-title") 
+
+
+def predict(text):
+    pred_text = classifier(text)[0]
+    return pred_text.get('generated_text')
 
 
 def test_predict_dog():
